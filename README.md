@@ -2,6 +2,6 @@
 This is a course project to smooth and detect lines of a given image. It is written in C using MPI.
 
 Usage on the command line is like this: 
-mpiexec -n <Processors> <executable> <input> <output>
+mpiexec -n #ofProcessors executableFile inputFile outputFile
 
-where <Processors> defines the number of processors including master processor.
+You should also compile the code using mpigcc instead of gcc.
